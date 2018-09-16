@@ -11,8 +11,8 @@ public class TestController {
     String port;
 
     @GetMapping("/hi")
-    public String getHi(){
-        return port +"just";
+    public String getHi(String name){
+        return port +"just"+name;
     }
 
 }
